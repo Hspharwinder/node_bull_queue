@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a(href=`${bullUrl}`) Go to Bull Queue UI
+  br
+  br
+  a(href=`${mailRoute}`) Send Mail
+  br
+  br
+  a(href=`${notificationRoute}`) Send Notification
+
